@@ -1,0 +1,28 @@
+[
+  {
+     "id" : "popup1" 
+     "openCmd" : "$(".popup1").controller().show()" 
+     "closeCmd" : "$(".popup1").controller().hide()" 
+  },
+  {
+     "id" : "popup4" 
+     "openCmd" : "$(".popup4").controller().show()" 
+     "closeCmd" : "$(".popup4").controller().hide()" 
+  },
+  ,
+  {
+     "id" : "popup6" 
+     "openCmd" : "$(".popup6").controller().show()" 
+     "closeCmd" : "$(".popup6").controller().hide()" 
+  },
+  {
+     "id" : "popup8" 
+     "openCmd" : "$(".popup8").controller().show()" 
+     "closeCmd" : "$(".popup8").controller().hide()" 
+  },
+  {
+     "id" : "popup40" 
+     "openCmd" : "$(".popup40").controller().show()" 
+     "closeCmd" : "$(".popup40").controller().hide()" 
+  }
+]

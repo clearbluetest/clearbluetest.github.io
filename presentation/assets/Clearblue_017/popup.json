@@ -1,0 +1,48 @@
+[
+  {
+     "id" : "popup26" 
+     "openCmd" : "$(".popup26").controller().show()" 
+     "closeCmd" : "$(".popup26").controller().hide()" 
+  },
+  {
+     "id" : "popup27" 
+     "openCmd" : "$(".popup27").controller().show()" 
+     "closeCmd" : "$(".popup27").controller().hide()" 
+  }
+  ,
+  {
+     "id" : "popup27" 
+     "openCmd" : "$(".popup27").controller().show()" 
+     "closeCmd" : "$(".popup27").controller().hide()" 
+  } ,
+  {
+     "id" : "popup28" 
+     "openCmd" : "$(".popup28").controller().show()" 
+     "closeCmd" : "$(".popup28").controller().hide()" 
+  } ,
+  {
+     "id" : "popup29" 
+     "openCmd" : "$(".popup29").controller().show()" 
+     "closeCmd" : "$(".popup29").controller().hide()" 
+  } ,
+  {
+     "id" : "popup30" 
+     "openCmd" : "$(".popup30").controller().show()" 
+     "closeCmd" : "$(".popup30").controller().hide()" 
+  } ,
+  {
+     "id" : "popup31" 
+     "openCmd" : "$(".popup31").controller().show()" 
+     "closeCmd" : "$(".popup31").controller().hide()" 
+  } ,
+  {
+     "id" : "popup32" 
+     "openCmd" : "$(".popup32").controller().show()" 
+     "closeCmd" : "$(".popup32").controller().hide()" 
+  } ,
+  {
+     "id" : "popup33" 
+     "openCmd" : "$(".popup33").controller().show()" 
+     "closeCmd" : "$(".popup33").controller().hide()" 
+  }
+]

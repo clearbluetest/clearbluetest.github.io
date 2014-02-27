@@ -1,0 +1,171 @@
+
+
+<div class="popup37 popup_bg2">
+
+	<div class="close"></div>
+    
+<!--pop37-->
+	<div class="screen_pu37">
+    	<div class="next_btn2 p37_next_btn"></div>
+    	<div class="p37_title_pop fru_b blue">
+            <i18n id="p37_title_pop_2">How to use it?</i18n>
+        </div>
+        <div class="p37_box_1">
+        	<span class="p37_big_num blue">1</span>
+        	<span class="p37_line"></span>
+        	<span class="p37_text blue fru_l"><i18n id="p37_text_1">Clearblue contraception monitor <b style="color:#92278f;">LEARNS ABOUT A WOMAN’S CYCLE</b> during a calibration period of 3 months</i18n></span>
+    	</div>
+        <div class="p37_box_2">
+        	<span class="p37_big_num blue">2</span>
+        	<span class="p37_line"></span>
+        	<span class="p37_text blue fru_l"><i18n id="p37_text_2">Clearblue contraception monitor <b style="color:#92278f;">ADAPTS TO HER MONTHLY CYCLE</b>, giving contraception advice each day</i18n></span>
+    	</div>
+        <div class="p37_board"></div>
+        <div class="p37_img"></div>
+        <div class="p37_greenday blue fru_b"><i18n id="p37_greenday">Green day</i18n></div>
+        <div class="p37_testday blue fru_b"><i18n id="p37_testday">Test day</i18n></div>
+        <div class="p37_redday blue fru_b"><i18n id="p37_redday">Red day</i18n></div>
+        
+        
+        
+        
+        <div class="p37_screen_1">
+        	<span class="p37_bg_green"></span>
+       		<span class="p37_greenday_act white fru_b"><i18n id="p37_greenday_act">Green day</i18n></span>
+        	<span class="p37_pic1"></span>
+        	<span class="p37_txt01 blue fru_l"><i18n id="p37_txt01"><b style="color:#a4d22c;">GREEN DAYS</b> <br>mean you are free to have sex without using contraception<sup>*</sup></i18n></span>
+
+    	</div>
+        <div class="p37_screen_2">
+        	<span class="p37_bg_test"></span>
+       		<span class="p37_testday_act white fru_b"><i18n id="p37_testday_act">Test day</i18n></span>
+        	<span class="p37_pic2"></span>
+        	<span class="p37_txt02 blue fru_l"><i18n id="p37_txt02"><b style="color:#fb6411;">TEST DAYS</b> <br>mean you will need to do a test to see if you are on a red day or green day</i18n></span>
+    	</div>
+        <div class="p37_screen_3">
+        	<span class="p37_bg_red"></span>
+       		<span class="p37_redday_act white fru_b"><i18n id="p37_redday_act">Red day</i18n></span>
+        	<span class="p37_pic3"></span>
+        	<span class="p37_txt03 blue fru_l"><i18n id="p37_txt03"><b style="color:#bb3046;">RED DAYS</b> <br>are around the time you ovulate and mean you are at high risk of getting pregnant if you have sex</i18n></span>
+    	</div>
+       
+    </div>	
+<!--pop37-->
+	
+<!--pop38-->
+	<div class="screen_pu38">
+        <div class="pre_btn2 p38_pre_btn"></div>
+        <div class="p37_title_pop fru_b blue">
+            <i18n id="p37_title_pop_1">How to use it?</i18n>
+        </div>
+        <div class="p38_board"></div>
+        <div class="p38_board2"></div>
+        <div class="p38_title1 fru_b white"><i18n id="p38_title1">Example Month 1</i18n></div>
+        <div class="p38_title2 fru_b white"><i18n id="p38_title2">Example Month 4</i18n></div>
+        
+        <div class="p38_po1 blue"><i18n id="p38_po1">Test</i18n></div>
+        <div class="p38_po2 blue"><i18n id="p38_po2">Green Day</i18n></div>
+        <div class="p38_po3 blue"><i18n id="p38_po3">Red Day</i18n></div>
+        <div class="p38_po4 blue"><i18n id="p38_po4">First day of period</i18n></div>
+        <div class="p38_claim"><i18n id="p38_claim">After month 3, the monitor will typically identify 6 to 12 
+<br>red days in each cycle. See dispersion in the table:</i18n></div>
+    </div>
+    
+<!--pop38-->
+
+             <!--ref2-->
+   		<div class="ref ref40 flyer" rel=".popup37 #refCo40_orange"></div>
+        <div class="refCo40_orange refCo40 flyer" id="refCo40_orange">
+            <div class="ref_content flyer">
+                    <p><i18n id="ref40ed">*Persona is 94% reliable if you follow the instructions properly and use it as the only method of contraception. This means that if 100 women use Persona for one year, we expect 6 will become pregnant because they have had sex on a day when Persona incorrectly showed they were not at risk of becoming pregnant (green day).</i18n></p>			
+    
+            </div>
+            <div class="close_ref flyer"></div>
+        </div>
+    	<!--End ref2-->
+    
+</div>
+
+<script language="javascript">	
+
+		if(isAnimation)
+		{
+			
+			$('.popup37').on('click', '.p37_greenday', function(e, el) {
+				$(".ref40").show();
+				$(".p37_redday").show();
+				$(".p37_testday").show();
+				$(".p37_greenday").hide();
+				$(".p37_screen_1").fadeIn();
+				$(".p37_screen_2").hide();
+				$(".p37_screen_3").hide();
+			});	
+			$('.popup37').on('click', '.p37_testday', function(e, el) {
+				$(".ref40").hide();
+				$(".p37_redday").show();
+				$(".p37_testday").hide();
+				$(".p37_greenday").show();
+				$(".p37_screen_1").hide();
+				$(".p37_screen_2").fadeIn();
+				$(".p37_screen_3").hide();
+			});
+			$('.popup37').on('click', '.p37_redday', function(e, el) {
+				$(".ref40").hide();
+				$(".p37_redday").hide();
+				$(".p37_testday").show();
+				$(".p37_greenday").show();
+				$(".p37_screen_1").hide();
+				$(".p37_screen_2").hide();
+				$(".p37_screen_3").fadeIn();
+			});
+			
+			$('.popup37').on('click', '.p37_next_btn', function(e, el) {
+					$(".popup37 .screen_pu37").fadeOut();
+					$(".popup37 .screen_pu38").fadeIn();
+				});	
+				
+			$('.popup37').on('click', '.p38_pre_btn', function(e, el) {
+					$(".popup37 .screen_pu38").fadeOut();
+					$(".popup37 .screen_pu37").fadeIn();
+				});		
+
+		}
+	else
+		{
+				$('.popup37').on('click', '.p37_greenday', function(e, el) {
+				$(".p37_redday").show();
+				$(".p37_testday").show();
+				$(".p37_greenday").hide();
+				$(".p37_screen_1").show();
+				$(".p37_screen_2").hide();
+				$(".p37_screen_3").hide();
+			});	
+			$('.popup37').on('click', '.p37_testday', function(e, el) {
+				$(".p37_redday").show();
+				$(".p37_testday").hide();
+				$(".p37_greenday").show();
+				$(".p37_screen_1").hide();
+				$(".p37_screen_2").show();
+				$(".p37_screen_3").hide();
+			});
+			$('.popup37').on('click', '.p37_redday', function(e, el) {
+				$(".p37_redday").hide();
+				$(".p37_testday").show();
+				$(".p37_greenday").show();
+				$(".p37_screen_1").hide();
+				$(".p37_screen_2").hide();
+				$(".p37_screen_3").show();
+			});
+			$('.popup37').on('click', '.p37_next_btn', function(e, el) {
+					$(".popup37 .screen_pu37").hide();
+					$(".popup37 .screen_pu38").show();
+				});	
+				
+			$('.popup37').on('click', '.p38_pre_btn', function(e, el) {
+					$(".popup37 .screen_pu38").hide();
+					$(".popup37 .screen_pu37").show();
+				});
+		}
+	
+	
+</script>

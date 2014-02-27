@@ -1,0 +1,105 @@
+
+
+<div class="popup26 popup_bg2">
+
+	<div class="close"></div>
+    
+<!--pop26-->
+	<div class="screen_pu26">
+    
+    <div class="p26_pack"></div>
+    
+    <div class="p26_title_pop fru_b blue">
+    	<i18n id="p26_title_pop">Digital Ovulation Test</i18n>
+    </div>
+	<div class="next_btn2 p26_next_btn"></div>
+    
+    <div class="woman"></div>
+    <div class="line1"></div>
+    <div class="circle_1"></div>
+    <div class="bubbles_1">
+    	<div class=" pu26_txt1 fru_b purple"><i18n id="pu26_txt1">Who for: </i18n></div>
+        <div class="pu26_txt2 fru_l blue"><i18n id="pu26_txt2">She is a new user<br /><br />or<br /><br />She wants reassurance<br />
+from a leading brand</i18n></div>
+    </div>
+    <div class="tube"></div>
+    <div class="line2"></div>
+    <div class="circle_2"></div>
+    <div class="bubbles_2">
+    	<div class=" pu26_txt3 fru_b purple"><i18n id="pu26_txt3">Role:</i18n></div>
+        <div class="pu26_txt4 fru_l blue"><i18n id="pu26_txt4">Trade-up from visual test</i18n></div>
+        <div class="pu26_txt5 fru_l blue"><i18n id="pu26_txt5">Category entrance</i18n></div>
+        <div class="pu26_txt6 fru_l blue"><i18n id="pu26_txt6">Price "anchor" between visual<br /> tests and advanced digital<br /> ovulation test with dual<br /> hormone indicator</i18n></div>
+    </div>
+  </div>	
+<!--pop26-->
+	
+<!--pop27-->    
+    <div class="screen_pu27">
+      <div class="p27_title_pop fru_b blue">
+          <i18n id="p27_title_pop">Digital Ovulation Test</i18n>
+      </div>
+      
+      <div class="pre_btn2 p27_pre_btn"></div>
+      <div class="pu27_chart">
+      		<div class="pu27_txt1 fru_l blue"><i18n id="pu27_txt1">2 MOST FERTILE DAYS</i18n></div>
+            <div class="pu27_txt2 fru_b"><i18n id="pu27_txt2">Hormone Level</i18n></div>
+            <div class="pu27_txt3 fru_l"><i18n id="pu27_txt3">luteinising hormone</i18n></div>
+            <div class="pu27_txt4 fru_b purple"><i18n id="pu27_txt4">Day of Cycle</i18n></div> 
+      </div>
+      <div class="pu27_tube"></div>
+      <div class="pu27_txt5 fru_l blue"><i18n id="pu27_txt5">Identifies her 2 <b class="fru_b purple">MOST FERTILE DAYS</b>…<br /> 
+with digital accuracy</i18n></div>
+      <div class="pu27_txt6 fru_l blue"><i18n id="pu27_txt6">Easy to use test to maximise her chances<br />
+of getting pregnant naturally</i18n></div>
+      <div class="pu27_txt7 fru_l blue"><i18n id="pu27_txt7">More accurate than calendar & temperature<br />
+methods at predicting the most fertile days</i18n></div>
+      <div class="pu27_txt8 fru_l blue"><i18n id="pu27_txt8">Clear digital results – no lines to interpret</i18n></div>
+      <div class="pu27_txt9 fru_l blue"><i18n id="pu27_txt9">Adapts to women's unique hormone profile</i18n></div>
+      <div class="pu27_txt10 fru_l blue"><i18n id="pu27_txt10">Over 99% accurate at detecting the LH surge</i18n></div>
+    </div>
+<!--pop27-->  
+<script language="javascript">	
+	
+	if(isAnimation)
+		{
+			var blocked = false;
+				
+				
+				$(".bubbles_1, .bubbles_2").delay(500).fadeIn();
+				$('.popup26').on('click', '.p26_next_btn', function(e, el) {
+					$(".popup26 .screen_pu26").fadeOut();
+					$(".bubbles_1, .bubbles_2").fadeOut();
+					$(".popup26 .screen_pu27").fadeIn();
+				});	
+				
+				$('.popup26').on('click', '.p27_pre_btn', function(e, el) {
+					$(".popup26 .screen_pu27").fadeOut();
+					$(".popup26 .screen_pu26").fadeIn(function(){
+						$(".bubbles_1, .bubbles_2").delay(200).fadeIn();
+						});
+				});			
+		}
+	else
+		{
+				$('.popup12').on('click', '.p12_video_bt', function(e, el) {
+					$(".popup12 .screen_pu12").hide();
+					$(".popup12 .screen_pu13").show();
+					
+					var video = $('#p13_video').drcom_video({
+						autoplay:true
+					}).controller();
+			
+					$('.popup12').on('click', '.p13_close', function(e, el) {
+						$(".popup12 .screen_pu12").show();
+						$(".popup12 .screen_pu13").hide();
+						
+						$(".drcom_video").each(function(){
+							$(this).controller().destroy();
+							$(this).empty();
+						});
+					});
+				});
+		}	
+	
+</script>

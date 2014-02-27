@@ -1,0 +1,16 @@
+
+.Clearblue_014 .img{ background:url(../images/img.png) no-repeat; width:408px; height:608px; top:160px; left:616px; position:absolute;}
+.Clearblue_014 .txt1{top:128px; left:63px; position:absolute; font-size:31px; color: #492F92; text-transform:uppercase; display:none;}
+.Clearblue_014 .txt2{top:180px; left:108px; position:absolute; font-size:19px; line-height:26px; opacity:0;}
+.Clearblue_014 .txt3{top:333px; left:63px; position:absolute; font-size:31px; color: #492F92; text-transform:uppercase; display:none;}
+.Clearblue_014 .txt4{top:386px; left:108px; position:absolute; font-size:19px; line-height:26px; opacity:0;}
+
+
+
+.Clearblue_014 .flyer {position:absolute;}
+.Clearblue_014 .ref27 {width:50px;height:50px;}
+.Clearblue_014 .close_ref {width:32px; height:32px; background:url(../../../global/images/close_btn.png) no-repeat; bottom:0px  !important; right:0px !important; z-index: 10;}
+.Clearblue_014 .ref27{left: 200px;top: 423px;  z-index:2; }
+.Clearblue_014 .refCo27 {width:385px; height:177px; background:url(../../../global/images/ref.jpg) no-repeat; bottom:85px; right:0px; z-index: 10; display:none;}
+
+

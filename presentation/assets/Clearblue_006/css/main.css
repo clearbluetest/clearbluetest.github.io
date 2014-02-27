@@ -1,0 +1,23 @@
+.Clearblue_006 sup {font-size:40%;}
+
+.Clearblue_006 .sheft{ background: url(../images/sheft.png) no-repeat; width:553px; height:683px; top:72px; left:0px; position:absolute; display:none;}
+.Clearblue_006 .sheft_hide{ background: url(../images/sheft_hide.png) no-repeat; width:553px; height:683px; top:72px; left:0px; position:absolute; display:none;}
+.Clearblue_006 .txt_right_1{ font-size: 25px; text-align:left; position:absolute; top:129px; left:597px; display:none;}
+.Clearblue_006 .txt_right_2{ font-size: 25px; text-align:left; position:absolute; top:209px; left:597px; width:500px; display:none;}
+.Clearblue_006 .box{width:417px; height:239px; position:absolute; top:320px; left:550px; display:none;}
+.Clearblue_006 .flag{position:absolute; background:url(../images/box.png) no-repeat; width:29px; height:118px; top:343px; left:574px; display:none;}
+.Clearblue_006 .txt_box{ font-size:45px; text-align: left; width:330px; top:21px; left:75px; position:absolute; display:none; line-height: 34px;}
+.Clearblue_006 .txt_percent{ font-size:40px}
+.Clearblue_006 .txt_30{ font-size:30px}
+
+.Clearblue_006 .close_ref {width:32px; height:32px; background:url(../../../global/images/close_btn.png) no-repeat; bottom:0px  !important; right:0px !important; z-index: 10;}
+.Clearblue_006 .refCo1 {width:385px; height:177px; background:url(../../../global/images/ref.jpg) no-repeat; bottom:85px; right:0px; z-index: 10; display:none;}
+
+
+.Clearblue_006 .flyer {position:absolute;}
+.Clearblue_006 .ref19 {width:50px;height:50px;}
+.Clearblue_006 .close_ref {width:32px; height:32px; background:url(../../../global/images/close_btn.png) no-repeat; bottom:0px  !important; right:0px !important; z-index: 10;}
+.Clearblue_006 .page_1{left: 666px;top: 406px;  z-index:2; }
+.Clearblue_006 .page_2{left: 943px;top: 197px;  z-index:2; }
+.Clearblue_006 .refCo19 {width:385px; height:177px; background:url(../../../global/images/ref.jpg) no-repeat; bottom:85px; right:0px; z-index: 10; display:none;}
+

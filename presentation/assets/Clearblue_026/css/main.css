@@ -1,0 +1,35 @@
+.Clearblue_026 .video_frame {background:url(../images/video_bar.png); width:513px; height:352px; left:70px; top:170px; position:absolute;}
+
+.Clearblue_026 .video_window {background:url(../images/video1.png); width:513px; height:352px; left:0px; top:0px; position:absolute;}
+
+.Clearblue_026 .vi1_tex {font-size:15px; left:38px; top:22px; position:absolute; z-index:4;}
+.Clearblue_026 .vi2_tex {font-size:15px; left:165px; top:22px; position:absolute; z-index:4;}
+.Clearblue_026 .vi3_tex {font-size:15px; left:292px; top:22px; position:absolute; z-index:4;}
+.Clearblue_026 .vi4_tex {font-size:15px; left:419px; top:22px; position:absolute; z-index:4;}
+
+.Clearblue_026 .vi1_act,.Clearblue_026 .vi2_act,.Clearblue_026 .vi3_act,.Clearblue_026 .vi4_act {background:url(../images/video_acti.png); width:128px; height:63px; top:0px; position:absolute; z-index:3;}
+
+.Clearblue_026 .vi1_act {left:0px;}
+.Clearblue_026 .vi2_act {left:128px; display:none;}
+.Clearblue_026 .vi3_act {left:255px; display:none;}
+.Clearblue_026 .vi4_act {left:383px; display:none;}
+
+.Clearblue_026 .main_cir {background:url(../images/cir.png); width:348px; height:348px; left:620px; top:172px; position:absolute; z-index:1;}
+
+.Clearblue_026 .cir_p1,.Clearblue_026 .cir_p2,.Clearblue_026 .cir_p3,.Clearblue_026 .cir_p4,.Clearblue_026 .cir_p5 {position:absolute; z-index:2;}
+
+.Clearblue_026 .cir_p1 {background:url(../images/pi_1.png); width:145px; height:193px; left:2px; top:36px;}
+.Clearblue_026 .cir_p2 {background:url(../images/pi_2.png); width:202px; height:135px; left:72px; top:1px; display:none;}
+.Clearblue_026 .cir_p3 {background:url(../images/pi_3.png); width:146px; height:192px; left:201px; top:34px; display:none;}
+.Clearblue_026 .cir_p4 {background:url(../images/pi_4.png); width:164px; height:156px; left:175px; top:191px; display:none;}
+.Clearblue_026 .cir_p5 {background:url(../images/pi_5.png); width:165px; height:155px; left:11px; top:192px; display:none;}
+
+.Clearblue_026 .pc1_t,.Clearblue_026 .pc2_t,.Clearblue_026 .pc3_t,.Clearblue_026 .pc4_t,.Clearblue_026 .pc5_t {font-size:18px;  position:absolute; z-index:3;}
+
+.Clearblue_026 .pc1_t {left:35px; top:130px;}
+.Clearblue_026 .pc2_t {left:147px; top:53px;}
+.Clearblue_026 .pc3_t {left:244px; top:130px;}
+.Clearblue_026 .pc4_t {left:184px; top:255px; font-size:15px;}
+.Clearblue_026 .pc5_t {left:50px; top:250px;}
+
+.Clearblue_026 .cir_small {background:url(../images/smal_cir.png); width:127px; height:126px; left:110px; top:109px; position:absolute; z-index:4;}

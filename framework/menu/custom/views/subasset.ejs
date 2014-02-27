@@ -1,0 +1,14 @@
+<div id="submenutarget">
+	<div id="scroller">
+		<ul>
+			<%
+			var assets = asset.attr('submenu');//get sub asset list
+			for(var i = 0; i < assets.length ; i++){%>
+				<li class="asset<%= assets[i].id %> asset"  <%= assets[i] %> <%=assets[i].hideonmenu%>>
+					 <a href="#" class="menu_link"><%== assets[i].title %></a>
+				</li>
+			<%}%>
+		</ul>
+	</div>
+</div>
+<div class="handle"></div>

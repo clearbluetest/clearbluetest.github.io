@@ -1,0 +1,32 @@
+
+.Clearblue_023 .woman{ background:url(../images/woman.png) no-repeat; width:428px; height:598px; top:100px; left:70px; position:absolute;}
+.Clearblue_023 .txt1{ font-size:120px; text-align:center; top:237px; left:559px; position:absolute; color:#92278f;}
+.Clearblue_023 .txt2{ font-size: 27px; text-align:left; top:360px; left:569px; position:absolute;}
+.Clearblue_023 .txt3{ font-size:40px; text-align:center; top:455px; left:567px; position:absolute; color:#92278f;}
+
+/*ref*/
+.Clearblue_023 .flyer {position:absolute;}
+.Clearblue_023 .ref {width:50px;height:50px;}
+.Clearblue_023 .close_ref {width:32px; height:32px; background:url(../../../global/images/close_btn.png) no-repeat; bottom:0px  !important; right:0px !important; z-index: 10;}
+.Clearblue_023 .ref37{left:281px; top:217px;  z-index:2; }
+.Clearblue_023 .page_25{left: 864px;top:435px;  z-index:2;}
+
+.Clearblue_023 .refCo37 {width:385px; height:177px; background:url(../../../global/images/ref.jpg) no-repeat; bottom:85px; right:0px; z-index: 10; display:none;}
+/*ref*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

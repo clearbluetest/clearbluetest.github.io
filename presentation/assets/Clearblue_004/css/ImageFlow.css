@@ -1,0 +1,122 @@
+﻿.imageflow {
+   
+    position: relative;
+    text-align: left;
+    visibility: hidden;
+    width: 100%;
+}
+	
+	 #zoom-area {
+		
+		-webkit-box-shadow: 0 0 15px black;
+		/*-webkit-box-reflect: below 15px  -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(87%, transparent), color-stop(95%,RGBA(255,255,255,0.1)), to(RGBA(255,255,255,0.2)));*/
+		
+		}
+
+    .imageflow img {
+        border: none;
+        position: absolute;
+        top: 0px;
+        visibility: hidden;
+    }
+
+    .imageflow p {
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .imageflow .loading {
+        border: 1px solid white;
+        height: 15px;
+        left: 50%;
+        margin-left: -106px;
+        padding: 5px;
+        position: relative;
+        visibility: visible;
+        width: 200px;
+    }
+
+    .imageflow .loading_bar {
+        background: #fff;
+        height: 15px;
+        visibility: visible;
+        width: 1%;
+    }
+
+    .imageflow .navigation {
+        z-index: 10000;
+		height:90px !important;
+    }
+
+    .imageflow .caption {
+        font-weight: bold;
+        position:relative;
+        text-align: center;
+        z-index: 10001;
+		height:95px; color:#FFF;
+		font-size:50px;
+		 font-family: 'helveticaltstd_light35';
+		 top:-95px;
+		 overflow:hidden;
+		 
+		 
+    }
+
+    .imageflow .scrollBar {
+        border-bottom: 1px solid #b3b3b3;
+        position: relative;
+        visibility: hidden;
+        height: 1px;
+        z-index: 10002;
+    }
+
+    .imageflow .slider {
+        background: url(../images/slider.png) no-repeat;
+        height: 14px;
+        margin: -6px 0 0 -7px;
+        position: absolute;
+        width: 14px;
+        z-index: 10003;
+    }
+	
+
+    .imageflow .images {
+        overflow: hidden;
+        white-space: nowrap;
+    }
+
+    .imageflow .button {
+        cursor: pointer;
+        height: 17px;
+        position: relative;
+        width: 17px;
+    }
+
+    .imageflow .previous {
+        background: url(../images/button_left.png) top left no-repeat;
+        float: left;
+        margin: -7px 0 0 -30px;
+    }
+
+    .imageflow .next {
+        background: url(../images/button_right.png) top left no-repeat;
+        float: right;
+        margin: -7px -30px 0 30px;
+    }
+
+#imageflow_scrollBar {
+    display: block;
+    margin: 0 auto;
+    position: relative;
+	display:none;
+}
+
+    #imageflow_scrollBar::before, #imageflow_scrollBar::after {
+        display: table;
+        line-height: 0;
+        content: "";
+    }
+
+    #imageflow_scrollBar::after {
+        clear: both;
+    }

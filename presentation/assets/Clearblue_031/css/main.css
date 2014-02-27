@@ -1,0 +1,19 @@
+
+.Clearblue_031 .doctor {background:url(../images/doctor.png); width:636px; height:567px; left:0px; top:132px; position:absolute; display:none;}
+
+.Clearblue_031 .maz {background:url(../images/magazine.png); width:333px; height:262px; left:640px; top:507px; position:absolute;opacity: 0}
+
+.Clearblue_031 .main_para1,.Clearblue_031 .main_para2,.Clearblue_031 .main_para3 {font-size:20px; left:670px; position:absolute; display:none;}
+.Clearblue_031 .main_para1 {top:120px;}
+.Clearblue_031 .main_para2 {top:222px;}
+.Clearblue_031 .main_para3 {top:344px;}
+
+/*ref*/
+.Clearblue_031 .flyer {position:absolute;}
+.Clearblue_031 .ref {width:50px;height:50px;}
+.Clearblue_031 .close_ref {width:32px; height:32px; background:url(../../../global/images/close_btn.png) no-repeat; bottom:0px  !important; right:0px !important; z-index: 10;}
+.Clearblue_031 .ref42{left:281px; top:217px;  z-index:2; }
+.Clearblue_031 .page_26{left: 823px;top:331px;  z-index:2;}
+.Clearblue_031 .page_27{left: 790px;top: 110px;  z-index:2;}
+.Clearblue_031 .refCo42 {width:385px; height:177px; background:url(../../../global/images/ref.jpg) no-repeat; bottom:69px; right:0px; z-index: 10; display:none;}
+/*ref*/

@@ -1,0 +1,13 @@
+.Clearblue_008 div{position:absolute;}
+.Clearblue_008 .title{top:102px; left:76px; font-size:32px; position:absolute;  display:none;}
+.Clearblue_008 .box_1, .Clearblue_008 .box_2, .Clearblue_008 .box_3{width:885px; height:134px; left:76px; display:none;}
+.Clearblue_008 .box_1{ background:url(../images/box_1.png) no-repeat; top:199px;}
+.Clearblue_008 .box_2{ background:url(../images/box_2.png) no-repeat; top:337px;}
+.Clearblue_008 .box_3{ background:url(../images/box_3.png) no-repeat; top:477px;}
+.Clearblue_008 .img_1{width:269px; height:102px; top:220px; left:683px; background:url(../images/img_1.png) no-repeat; display:none;}
+.Clearblue_008 .img_2{width:176px; height:115px; top:349px; left:780px; background:url(../images/img_2.png) no-repeat;  display:none;}
+.Clearblue_008 .img_3{width:95px; height:131px; top:481px; left:835px; background:url(../images/img_3.png) no-repeat;  display:none;}
+.Clearblue_008 .box_1 .num, .Clearblue_008 .box_2 .num, .Clearblue_008 .box_3 .num{top:7px; left:44px; font-size:100px; position:absolute;  display:none;}
+.Clearblue_008 .box_1 .stt, .Clearblue_008 .box_2 .stt, .Clearblue_008 .box_3 .stt{top:52px; left:126px; font-size:25px; position:absolute;  display:none;}
+.Clearblue_008 .box_1 .note, .Clearblue_008 .box_2 .note, .Clearblue_008 .box_3 .note{top:52px; left:152px; font-size:27px; position:absolute;  display:none; width:600px;}
+.Clearblue_008 .title_1{ font-size: 20px; text-align:center; top:143px; left:76px; position:absolute; display:none;}

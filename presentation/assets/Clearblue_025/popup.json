@@ -1,0 +1,17 @@
+[
+  {
+     "id" : "popup36" 
+     "openCmd" : "$(".popup36").controller().show()" 
+     "closeCmd" : "$(".popup36").controller().hide()" 
+  },
+  {
+     "id" : "popup37" 
+     "openCmd" : "$(".popup37").controller().show()" 
+     "closeCmd" : "$(".popup37").controller().hide()" 
+  },
+  {
+     "id" : "popup39" 
+     "openCmd" : "$(".popup39").controller().show()" 
+     "closeCmd" : "$(".popup39").controller().hide()" 
+  }
+]

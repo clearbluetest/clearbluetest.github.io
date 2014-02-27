@@ -1,0 +1,100 @@
+[
+	{
+        "id": 2,
+		"name": "s2",
+        "thumb": "Clearblue_002",
+		"submenu": [
+			{
+				"id": 2,
+				"name": "s2",
+				"hideonslide":1,
+				"title":"受孕"
+			}
+        ]
+	},
+	{
+        "id": 3,
+		"name": "s3",
+        "thumb": "Clearblue_003",
+		"submenu": [
+			{
+				"id": 3,
+				"name": "s3",
+				"hideonslide":1,
+				"title":"消费者划分"
+			}
+        ]
+    },
+	{
+        "id": 4,
+		"name": "s4",
+        "thumb": "Clearblue_004",
+		"submenu": [
+			{
+				"id": 4,
+				"name": "s4",
+				"hideonslide":1,
+				"title":"不同验孕产品是否会带给她来不同的结果呢?"
+			}
+        ]
+    },
+	{
+        "id": 5,
+		"name": "s5",
+        "thumb": "Clearblue_005",
+		"submenu": [
+			{
+				"id": 5,
+				"name": "s5",
+				"hideonslide":1,
+				"title":"她是怎样了解这类产品的?"
+			},
+			{
+				"id": 6,
+				"name": "s6",
+				"title":"在商店里，她是如何购物的呢?"
+			},
+			{
+				"id": 7,
+				"name": "s7",
+				"title":"为什么推荐可丽蓝"
+			},
+			{
+				"id": 8,
+				"name": "s8",
+				"title":"小结"
+			}
+        ]
+    },
+	{
+        "id": 9,
+		"name": "s9",
+        "thumb": "Clearblue_009",
+		"submenu": [
+			{
+				"id": 9,
+				"name": "s9",
+				"hideonslide":1,
+				"title":"可丽蓝的特点：总结"
+			}
+        ]
+    },
+	{
+        "id": 10,
+		"name": "s10",
+        "thumb": "Clearblue_010",
+		"submenu": [
+			{
+				"id": 10,
+				"name": "s10",
+				"hideonslide":1,
+				"title":"可丽蓝验孕系列"
+			},
+			{
+				"id": 312,
+				"name": "s312",
+				"title":"可丽蓝验孕系列"
+			}
+        ]
+    }
+]

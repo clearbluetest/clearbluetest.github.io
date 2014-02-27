@@ -1,0 +1,23 @@
+@charset "utf-8";
+
+@font-face {
+	font-family: 'font_normal';
+	src: url('../fonts/normal.ttc');
+}
+
+@font-face {
+	font-family: 'font_bold';
+	src: url('../fonts/bold.ttc');
+}
+@font-face {
+	font-family: 'font_light';
+	src: url('../fonts/light.ttf');
+}
+@font-face {
+	font-family: 'frutiger_roman4';
+	src: url('../fonts/frutiger_roman4.otf');
+}
+@font-face {
+	font-family: 'frutiger_roman5';
+	src: url('../fonts/frutiger_roman5.otf');
+}

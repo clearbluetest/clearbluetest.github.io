@@ -1,0 +1,251 @@
+<div class="popup12 popup_bg">
+
+	<div class="close"></div>	
+    
+    <!--pop12-->
+	<div class="screen_pu12">
+    	
+        <div class="p12_title_pop fru_b blue">
+            <i18n id="p12_title_pop">带有受孕显示的可丽蓝电子验孕笔</i18n>
+        </div>
+        
+        <div class="p12_img_pu12"></div>
+        <div class="p12_pack"></div>
+        
+        <span class="p12_text1 fru_l blue">
+            <i18n id="p12_text1">十分精确，<br />可以告诉<br />你受孕周数</i18n>
+        </span>
+        
+        <span class="p12_text2 fru_l blue">
+            <i18n id="p12_text2">准确的电子结果显示</i18n>
+        </span>
+        
+        <div class="p12_video_bt">
+            <span class="p12_vbt_t fru_b pink">
+                <i18n id="p12_vbt_t">视频</i18n>
+            </span>
+        </div>
+    
+        <div class="next_btn p12_next_btn"></div>
+    
+    </div>
+	<!--pop12-->
+    
+    
+    <!--pop13-->
+	<div class="screen_pu13">
+        <div class="p13_title_pop fru_b blue">
+            <i18n id="p13_title_pop">带有受孕显示的可丽蓝电子验孕笔</i18n>
+        </div>
+        
+        <!-- Video  -->
+            <div id="p13_video" src="presentation/assets/Clearblue_010/video/video57"></div>
+        <!-- End Video  -->
+        
+        <div class="p13_close"></div>
+    </div>
+    <!--pop13-->
+
+    <!--pop14-->    
+    <div class="screen_pu14">
+        <div class="p14_title_pop fru_b blue">
+            <i18n id="p14_title_pop">带有受孕显示的可丽蓝电子验孕笔</i18n>
+        </div>
+        
+        
+        <div class="p14_title2 fru_l blue">
+            <i18n id="p14_title2">带有受孕显示的可丽蓝电子验孕笔</i18n>
+        </div>
+        
+        <span class="p14_para fru_b blue">
+            <i18n id="p14_para">可丽蓝是唯一一<br />款可以如同超声波一<br />样精准测出受孕时长的产品<sup>*</sup>
+ </i18n>
+        </span>
+        
+        <div class="p14_video_bt">
+            <span class="p14_vbt_t fru_b pink">
+                <i18n id="p14_vbt_t">视频</i18n>
+            </span>
+        </div>
+        
+        <div class="p14_graph">
+        
+            <span class="p14_y_text blue">
+                <i18n id="p14_y_text">hCG水平</i18n>
+            </span>
+            <span class="p14_x_text blue">
+                <i18n id="p14_x_text">怀孕周数</i18n>
+            </span>
+            <span class="p14_c_text blue">
+                <i18n id="p14_c_text">hCG平均水平</i18n>
+            </span>
+            
+            <div class="p14_chart">
+               
+            </div>
+             <div class="p14_step1"></div>
+                <div class="p14_step2"></div>
+                <div class="p14_step3"></div>
+            
+        </div>
+            
+        <div class="pre_btn p14_pre_btn"></div>
+        <div class="p14_close"></div>
+        
+        <!--ref1-->
+   		<div class="ref ref22 flyer" rel=".popup12 #refCo22_orange"></div>
+
+        <div class="refCo22_orange refCo22 flyer" id="refCo22_orange">
+            <div class="ref_content flyer">
+				<p><i18n id="ref_content">
+                 97%的受孕周数结果与之后的超声波测试结果相同。<br/>
+根据一项由187名女性将检测结果（怀孕1-2周，2-3周或3周以上）与超声结果相比较的研究得出
+
+
+				</i18n></p>				
+                </div>
+            <div class="close_ref flyer"></div>
+        </div>
+    	<!--End ref1--> 
+        
+    </div>
+    <!--pop14-->        
+
+    <!--pop15-->
+	<div class="screen_pu15">
+        <div class="p15_title_pop fru_b blue">
+            <i18n id="p15_title_pop">带有受孕显示的可丽蓝电子验孕笔</i18n>
+        </div>
+        
+        <!-- Video  -->
+            <div id="p15_video" src="presentation/assets/Clearblue_010/video/video60"></div>
+        <!-- End Video  -->
+            
+        <div class="p15_close"></div>
+    </div>
+    <!--pop13-->   
+    
+</div>
+
+
+<script language="javascript">	
+	
+	if(isAnimation)
+		{
+			var blocked = false;
+				
+				$('.popup12').on('click', '.p12_video_bt', function(e, el) {
+					$(".popup12 .screen_pu12").fadeOut();
+					$(".popup12 .screen_pu13").fadeIn();
+					
+					var video = $('#p13_video').drcom_video({
+						autoplay:true
+					}).controller();
+			
+					$('.popup12').on('click', '.p13_close', function(e, el) {
+						$(".popup12 .screen_pu12").fadeIn();
+						$(".popup12 .screen_pu13").fadeOut();
+						
+						$(".drcom_video").each(function(){
+							$(this).controller().destroy();
+							$(this).empty();
+						});
+					});
+				});
+				
+				$('.popup12').on('click', '.p14_video_bt', function(e, el) {
+					$(".popup12 .screen_pu14").fadeOut();
+					$(".popup12 .screen_pu15").fadeIn();
+					
+					var video = $('#p15_video').drcom_video({
+						autoplay:true
+					}).controller();	
+				
+					$('.popup12').on('click', '.p15_close', function(e, el) {
+						$(".popup12 .screen_pu14").fadeIn();
+						$(".popup12 .screen_pu15").fadeOut();
+						
+						$(".drcom_video").each(function(){
+							$(this).controller().destroy();
+							$(this).empty();
+						});
+					});
+				});
+				
+				$('.popup12').on('click', '.p12_next_btn', function(e, el) {
+					$(".popup12 .screen_pu12").fadeOut();
+					$(".popup12 .screen_pu14").fadeIn(200,function(){
+						
+						if(!$('.p14_graph .p14_chart').is(':visible')){
+							$('.p14_graph .p14_chart').show('blind', {direction : "left"}, 3000, function() {
+									$('.p14_c_text').fadeIn(500);
+							});
+							$('.p14_graph .p14_step1').fadeIn();
+							$('.p14_graph .p14_step2').delay(300).fadeIn();
+							$('.p14_graph .p14_step3').delay(600).fadeIn();
+						}
+					});
+				});
+				
+				
+				$('.popup12').on('click', '.p14_pre_btn', function(e, el) {
+					$(".popup12 .screen_pu14").fadeOut();
+					$(".popup12 .screen_pu12").fadeIn();
+				});			
+		}
+	else
+		{
+				$('.popup12').on('click', '.p12_video_bt', function(e, el) {
+					$(".popup12 .screen_pu12").hide();
+					$(".popup12 .screen_pu13").show();
+					
+					var video = $('#p13_video').drcom_video({
+						autoplay:true
+					}).controller();
+			
+					$('.popup12').on('click', '.p13_close', function(e, el) {
+						$(".popup12 .screen_pu12").show();
+						$(".popup12 .screen_pu13").hide();
+						
+						$(".drcom_video").each(function(){
+							$(this).controller().destroy();
+							$(this).empty();
+						});
+					});
+				});
+				
+				$('.popup12').on('click', '.p14_video_bt', function(e, el) {
+					$(".popup12 .screen_pu14").hide();
+					$(".popup12 .screen_pu15").show();
+					
+					var video = $('#p15_video').drcom_video({
+						autoplay:true
+					}).controller();	
+				
+					$('.popup12').on('click', '.p15_close', function(e, el) {
+						$(".popup12 .screen_pu14").show();
+						$(".popup12 .screen_pu15").hide();
+						
+						$(".drcom_video").each(function(){
+							$(this).controller().destroy();
+							$(this).empty();
+						});
+					});
+				});
+				
+				$('.popup12').on('click', '.p12_next_btn', function(e, el) {
+					$(".popup12 .screen_pu12").hide();
+					$(".popup12 .screen_pu14").show();
+					$(".popup12 .p14_chart,.p14_c_text").show();
+					$("p14_graph .p14_step1,.p14_graph .p14_step2,.p14_graph .p14_step3").show();
+				});
+				
+				
+				$('.popup12').on('click', '.p14_pre_btn', function(e, el) {
+					$(".popup12 .screen_pu14").hide();
+					$(".popup12 .screen_pu12").show();
+				});			
+			
+		}	
+	
+</script>

@@ -1,0 +1,8 @@
+[
+    {
+        "assets": "../",
+        "slidesList": "simulator.json",
+        "thumbSize": { "width" : "0", "height": "0"},
+        "holderSize": { "width" : "1024", "height": "768"}
+    }
+]

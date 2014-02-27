@@ -1,0 +1,15 @@
+
+.Clearblue_0312 .claim {font-size:30px; width:1024px; top:100px; position:absolute; text-align:center;} 
+
+.Clearblue_0312 .tube_1 {background:url(../images/tube_1.png); width:446px; height:175px; left:55px; top:300px; position:absolute;}
+.Clearblue_0312 .tube_2 {background:url(../images/tube_2.png); width:441px; height:176px; left:535px; top:300px; position:absolute;}
+
+.Clearblue_0312 .t1_text {font-size:18px; width:426px; top:-60px; position:absolute; text-align:center;}
+.Clearblue_0312 .t1_text b {font-size:24px;}
+.Clearblue_0312 .t2_text {font-size:18px; width:426px; top:-60px; position:absolute; text-align:center;}
+.Clearblue_0312 .t2_text b {font-size:24px;}
+
+.Clearblue_0312 .line_1 {background:url(../images/line.png); width:2px; height:115px; position:absolute; left:60px; top:500px;}
+.Clearblue_0312 .para_1 {font-size:20px; left:10px; top:1px; position:absolute; width:370px;}
+.Clearblue_0312 .line_2 {background:url(../images/line.png); width:2px; height:115px; position:absolute; left:543px; top:500px;}
+.Clearblue_0312 .para_2 {font-size:20px; left:10px; top:1px; position:absolute; width:410px;}

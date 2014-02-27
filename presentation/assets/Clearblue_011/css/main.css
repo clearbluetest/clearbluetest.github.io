@@ -1,0 +1,82 @@
+.Clearblue_011 .blue_l {color:#00b7f1}
+.Clearblue_011 .purple2 {color:#92278f}
+
+.Clearblue_011 .chart_bg {background:url(../images/chart_bg1.png); width:750px; height:32px; left:143px; top:453px; position:absolute; z-index:6;}
+
+.Clearblue_011 .chart_t1 {font-size:16px; left:-110px; top:-180px; position:absolute; -webkit-transform: rotate(-90deg);}
+.Clearblue_011 .chart_t2 {font-size:16px; left:342px; top:60px; position:absolute; }
+
+.Clearblue_011 .step_1 {background:url(../images/step_1.png); width:751px; height:248px; left:140px; top:192px; position:absolute; z-index:5; display: none}
+.Clearblue_011 .step_2 {background:url(../images/step_2.png); width:751px; height:248px; left:140px; top:192px; position:absolute; z-index:5; display: none}
+.Clearblue_011 .step_3 {background:url(../images/step_3.png); width:751px; height:248px; left:140px; top:192px;position:absolute; z-index:5; display: none}
+.Clearblue_011 .step_4 {background:url(../images/step_4.png); width:751px; height:248px; left:140px; top:192px;position:absolute; z-index:5;}
+.Clearblue_011 #step7 {width: 100%; height: 100%; z-index: 9999}
+
+.Clearblue_011 .step_4_square {background:url(../images/square_pur.png); width: 151px;
+height: 24px;left: 367px;top: 467px; position:absolute; z-index:1;}
+.Clearblue_011 .square_final {background:url(../images/square_pur.png); width: 180px;
+height: 24px;left: 367px;top: 467px; position:absolute; z-index:1;}
+.Clearblue_011 .egg {background:url(../images/egg.png); width:26px; height:28px; left:500px; top:160px; position:absolute;z-index:5;}
+.Clearblue_011 .bubble_1 {width:178px; height:107px; left:479px; top:268px; position:absolute;z-index:105;}
+.Clearblue_011 .bubble_text1 {font-size:15px; left:78px;top:3px; position:absolute;z-index:5;}
+/*.Clearblue_011 .bubble_2 {background:url(../images/buble_2.png); width:85px; height:97px; left:530px; top:75px; position:absolute;z-index:115;}*/
+.Clearblue_011 .bubble_text2 {font-size:15px; left:524px; top:132px; position:absolute;z-index:5;}
+.Clearblue_011 .bubble_3 {background:url(../images/buble_3.png); width:119px; height:70px; left:780px; top:357px; position:absolute;z-index:5;}
+.Clearblue_011 .bubble_text3 {font-size:15px; left:8px; top:5px; position:absolute;z-index:5;}
+.Clearblue_011 .bubble_4 {background:url(../images/buble_4.png); width:82px; height:97px; left:864px; top:228px; position:absolute;z-index:5;}
+.Clearblue_011 .bubble_text4 {font-size:15px; left:25px; top:20px; position:absolute;z-index:5;}
+
+.Clearblue_011 .sperm {background:url(../images/sperm.png); width:36px; height:22px; left: 335px;
+top: 440px;position:absolute;z-index:109;-webkit-transition: -webkit-transform 1.5s ease-in-out;}
+.Clearblue_011 .sperm.moveStep1 {-webkit-transform: translate3d(125px, -266px, 0px);}
+.Clearblue_011 .big_square {background:url(../images/big_square.png); width:183px; height:298px; left: 366px;
+top: 156px; position:absolute; z-index:1;}
+.Clearblue_011 .square_pur1 {background:url(../images/square_pur1.png); width:29px; height:24px; left: 458px;
+top: 467px; position:absolute;}
+.Clearblue_011 .square_pur2 {background:url(../images/square_pur1.png); width:29px; height:24px; left: 488px;
+top: 467px; position:absolute;}
+.Clearblue_011 .replay {background:url(../images/replay.png); width:116px; height:32px; left: 833px;
+top: 609px; position:absolute; display: none}
+
+
+
+.Clearblue_011 .s1_t1 {font-size:16px; left:80px; top:380px; position:absolute;z-index: 5}
+.Clearblue_011 .s2_t1 {font-size:16px; left: 80px;top: 434px; position:absolute; z-index: 105}
+.Clearblue_011 .s3_t3 {font-size:16px; left: 398px;top: 433px; position:absolute;}
+
+.Clearblue_011 .c1_1 {font-size:22px; left: 139px;top: 547px; position:absolute;}
+.Clearblue_011 .c1_2 {background: url(../images/check.png) no-repeat;top: 583px;left: 140px;font-size: 22px;padding-left: 30px;position: absolute; background-position: 0 2px;padding-bottom: 0px;padding-top: 0px; width:400px;}
+.Clearblue_011 .c1_3 {background: url(../images/check.png) no-repeat;top: 617px;left: 140px;font-size: 22px;padding-left: 30px;position: absolute; background-position: 0 2px;padding-bottom: 0px;padding-top: 0px; width:550px;}
+.Clearblue_011 .c2_1 {font-size:22px; left: 139px;top: 547px; position:absolute;}
+.Clearblue_011 .c3_1 {font-size:22px; left: 139px;top: 547px; position:absolute;}
+.Clearblue_011 .c4_1 {font-size:22px; left: 139px;top: 547px; position:absolute; line-height:36px;}
+.Clearblue_011 .c4_2 {background: url(../images/play_btn.png) no-repeat;top: 620px;left: 140px;font-size: 22px;padding-left: 40px;position: absolute;background-position: 0 2px;padding-bottom: 10px;padding-top: 4px;width: 550px;}
+.Clearblue_011 .c5_1 {font-size:22px; left: 139px;top: 547px; position:absolute;}
+.Clearblue_011 .c1_1,.Clearblue_011 .c1_2,.Clearblue_011 .c1_3,.Clearblue_011 .c2_1,.Clearblue_011 .c3_1,.Clearblue_011 .c4_1,.Clearblue_011 .c4_2,
+.Clearblue_011 .c5_1,.Clearblue_011 .s1_t1,.Clearblue_011 .s2_t1,.Clearblue_011 #step6,
+.Clearblue_011 .square_final,.Clearblue_011 .bubble_2,.Clearblue_011 .bubble_1
+{display: none}
+
+
+.Clearblue_011 .flyer {position:absolute;}
+.Clearblue_011 .ref9 {width:50px;height:50px;}
+.Clearblue_011 .close_ref {width:32px; height:32px; background:url(../../../global/images/close_btn.png) no-repeat; bottom:0px  !important; right:0px !important; z-index: 10;}
+.Clearblue_011 .ref9{left:635px; top:397px;  z-index:2; }
+.Clearblue_011 .refCo9 {width:385px; height:177px; background:url(../../../global/images/ref.jpg) no-repeat; bottom:85px; right:0px; z-index: 10; display:none;}
+.Clearblue_011 #video {
+    width: 1024px;
+    height: 768px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+.Clearblue_011 video {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+.Clearblue_011 .replay {background:url(../images/replay_purple2.png); width:32px; height:32px; left: 878px; top: 620px; display: inline; background-size: 100%}
+.Clearblue_011 #btnVideo {background:url(../images/pause_purple2.png); width:31px; height:32px; left: 843px; top: 620px; display: inline; background-size: 100%}
+.Clearblue_011 #btnVideo.playpause {background:url(../images/play_purple2.png); width:31px; height:32px; left: 843px; top: 620px; position:absolute; display: inline; background-size: 100%}
+.Clearblue_011 #step7,.Clearblue_011 .replay,.Clearblue_011 #btnVideo {position: absolute; z-index: 9999}

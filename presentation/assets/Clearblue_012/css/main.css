@@ -1,0 +1,31 @@
+
+.Clearblue_012 .img{ background:url(../images/img.png) no-repeat; width:394px; height:624px; top:81px; left:31px; position:absolute; display:none}
+.Clearblue_012 .bub_1{ background:url(../images/bubble_1.png) no-repeat; width:26px; height:26px; top:231px; left:387px; position:absolute; display:none;}
+.Clearblue_012 .bub_2{ background:url(../images/bubble_2.png) no-repeat; width:43px; height:43px; top:197px; left:423px; position:absolute; display:none;}
+.Clearblue_012 .bub_3{ background:url(../images/bubble_3.png) no-repeat; width:64px; height:64px; top:162px; left:479px; position:absolute; display:none;}
+.Clearblue_012 .bub_4{ background:url(../images/bubble_4.png) no-repeat; width:201px; height:200px; top:70px; left:550px; position:absolute; display:none;}
+.Clearblue_012 .text1{top:283px; left:466px; position:absolute; font-size:30px; color: #492F92; line-height:32px; display:none;}
+.Clearblue_012 .text2{top:348px; left:466px; position:absolute; font-size:28px; display:none;}
+.Clearblue_012 #box_1 {top:424px; left:455px; position:absolute; display:none;}
+.Clearblue_012 #box_1 .circle{ background:url(../images/circle_1.png) no-repeat; width:99px; height:100px; top:0px; left:18px; position:absolute;}
+.Clearblue_012 #box_1 .text{top:114px; left:0px; position:absolute; font-size:19px; width:152px;}
+
+.Clearblue_012 #box_2 {top:424px; left:631px; position:absolute;display:none;}
+.Clearblue_012 #box_2 .circle{ background:url(../images/circle_2.png) no-repeat; width:99px; height:100px; top:0px; left:18px; position:absolute;}
+.Clearblue_012 #box_2 .text{top:114px; left:0px; position:absolute; font-size:19px; width:173px;}
+
+.Clearblue_012 #box_3 {top:424px; left:830px; position:absolute;display:none;}
+.Clearblue_012 #box_3 .circle{ background:url(../images/circle_3.png) no-repeat; width:99px; height:100px; top:0px; left:0px; position:absolute;}
+.Clearblue_012 #box_3 .text{top:114px; left:0px; position:absolute; font-size:19px; width:170px;}
+
+
+
+
+
+.Clearblue_012 .flyer {position:absolute;}
+.Clearblue_012 .ref25 {width:50px;height:50px;}
+.Clearblue_012 .close_ref {width:32px; height:32px; background:url(../../../global/images/close_btn.png) no-repeat; bottom:0px  !important; right:0px !important; z-index: 10;}
+.Clearblue_012 .ref25{left: 836px;top: 296px;  z-index:2; }
+.Clearblue_012 .refCo25 {width:385px; height:177px; background:url(../../../global/images/ref.jpg) no-repeat; bottom:85px; right:0px; z-index: 10; display:none;}
+
+

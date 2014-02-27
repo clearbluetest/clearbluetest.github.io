@@ -1,0 +1,113 @@
+[
+	{
+        "id": 11,
+		"name": "s11",
+        "thumb": "Clearblue_011",
+		"submenu": [
+			{
+				"id": 11,
+				"name": "s11",
+				"hideonslide":1,
+				"title":"Fertility"
+			}
+        ]
+	},
+	{
+        "id": 12,
+		"name": "s12",
+        "thumb": "Clearblue_012",
+		"submenu": [
+			{
+				"id": 12,
+				"name": "s12",
+				"hideonslide":1,
+				"title":"Pregnancy planning"
+			},
+			{
+				"id": 13,
+				"name": "s13",
+				"title":"Difficulties to get pregnant"
+			},
+			{
+				"id": 14,
+				"name": "s14",
+				"title":"Consumer interest"
+			}
+        ]
+	},
+	{
+        "id": 15,
+		"name": "s15",
+        "thumb": "Clearblue_015",
+		"submenu": [
+			{
+				"id": 15,
+				"name": "s15",
+				"hideonslide":1,
+				"title":"Ovulation tests vs other home methods"
+			},
+			{
+				"id": 16,
+				"name": "s16",
+				"title":"Clearblue ovulation test vs other tests"
+			}
+        ]
+	},
+	{
+        "id": 17,
+		"name": "s17",
+        "thumb": "Clearblue_017",
+		"submenu": [
+			{
+				"id": 17,
+				"name": "s17",
+				"hideonslide":1,
+				"title":"Complete line-up"
+			}
+        ]
+	},
+	{
+        "id": 18,
+		"name": "s18",
+        "thumb": "Clearblue_018",
+		"submenu": [
+			{
+				"id": 18,
+				"name": "s18",
+				"hideonslide":1,
+				"title":"In-store facts"
+			}
+        ]
+	},
+	{
+        "id": 19,
+		"name": "s19",
+        "thumb": "Clearblue_019",
+		"submenu": [
+			{
+				"id": 19,
+				"name": "s19",
+				"hideonslide":1,
+				"title":"Clearblue's role as the category leader"
+			},
+			{
+				"id": 20,
+				"name": "s20",
+				"title":"Role of the pharmacist in growing ovulation category"
+			}
+        ]
+	},
+	{
+        "id": 21,
+		"name": "s21",
+        "thumb": "Clearblue_021",
+		"submenu": [
+			{
+				"id": 21,
+				"name": "s21",
+				"hideonslide":1,
+				"title":"Conclusion"
+			}
+        ]
+	}
+]

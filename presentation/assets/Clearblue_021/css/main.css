@@ -1,0 +1,27 @@
+
+.Clearblue_021 .box_1{ background:url(../images/box_1.png) no-repeat; width:835px; height:111px; top:129px; left:70px; position:absolute;}
+.Clearblue_021 .box_2{ background:url(../images/box_2.png) no-repeat; width:835px; height:111px; top:248px; left:70px; position:absolute;}
+.Clearblue_021 .box_3{ background:url(../images/box_3.png) no-repeat; width:835px; height:166px; top:366px; left:70px; position:absolute;}
+.Clearblue_021 .box_4{ background:url(../images/box_4.png) no-repeat; width:835px; height:110px; top:540px; left:70px; position:absolute;}
+.Clearblue_021 .txt_1{ font-size:31px; text-align:left; top:81px; left:75px; position:absolute; display:none;}
+
+.Clearblue_021 .number_1,.Clearblue_021 .number_2,.Clearblue_021 .number_3,.Clearblue_021 .number_4{ font-size:75px; text-align: center;  position:absolute; display:none;}
+.Clearblue_021 .number_1{ top:11px; left:24px;}
+.Clearblue_021 .number_2{ top:11px; left:24px;}
+.Clearblue_021 .number_3{ top:38px; left:24px;}
+.Clearblue_021 .number_4{ top:11px; left:24px;}
+
+.Clearblue_021 .txt_box1,.Clearblue_021 .txt_box2,.Clearblue_021 .txt_box4{ font-size:24px; text-align:left; position:absolute;}
+.Clearblue_021 .txt_box1{ top:28px; left:108px;}
+.Clearblue_021 .txt_box2{ top:27px; left:108px;}
+.Clearblue_021 .txt_box3{ top:27px; left:108px; font-size:23px; position:absolute;}
+.Clearblue_021 .txt_box4{ top:28px; left:108px; display:none;}
+.Clearblue_021 .txt_box1,.Clearblue_021 .txt_box2,.Clearblue_021 .txt_box4,.Clearblue_021 .txt_box3{ display:none;}
+
+.Clearblue_021 .img_box_1{ background:url(../images/arrow.png) no-repeat; width:238px; height:132px; top:-12px; left:594px; position:absolute;}
+.Clearblue_021 .img_box_2{ background:url(../images/calendar.png) no-repeat; width:122px; height:123px; top:-5px; left:662px; position:absolute;}
+.Clearblue_021 .img_box_3{ background:url(../images/clearblue.png) no-repeat; width:306px; height:142px; top:23px; left:512px; position:absolute;}
+.Clearblue_021 .img_box_4{ background:url(../images/img.png) no-repeat; width:279px; height:106px; top:2px; left:557px; position:absolute; display:none;}
+
+.Clearblue_021 .box_1,.Clearblue_021 .box_2,.Clearblue_021 .box_3,.Clearblue_021 .box_4{ display:none;}
+.Clearblue_021 .img_box_1,.Clearblue_021 .img_box_2,.Clearblue_021 .img_box_3,.Clearblue_021 .img_box_4{display:none;}

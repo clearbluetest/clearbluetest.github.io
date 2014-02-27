@@ -1,0 +1,267 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/*--------------------------------------------Begin:Light Framework---------------------*/
+html * {
+	-webkit-touch-callout: none; /* prevent callout to copy image, etc when tap to hold */
+	-webkit-tap-highlight-color: rgba(0,0,0,0);  /* make transparent link selection, adjust last value opacity 0 to 1.0 */
+	-webkit-user-select: none; /* prevent copy paste, to allow, change 'none' to 'text' */
+}
+
+html, body {
+  margin: 0px;
+  padding: 0px;
+   font-family:'frutiger_roman';
+}
+body
+{
+	width:1024px;
+	height: 768px;
+	position:  relative;
+	font-weight:normal;
+}
+b {
+	font-family:'font_bold';
+}
+i {
+	font-family:'font_normal';
+}
+.fru {
+	font-family:'font_normal';
+}
+.fru_b{
+	font-family:'font_bold';
+}
+.fru_l{
+	font-family:'font_light';
+}
+.fru_lo{
+	font-family:'font_light';
+}
+.fru_bo{
+	font-family:'font_normal';
+}
+.green{color:#018c66;}
+.grey{color:#919191;}
+.blue{color:#00437a;}
+.pink{color:#ee1798;}
+.white{color:#FFF;}
+.purple{color:#492f92;}
+video {width:100%; height:100%;}
+.top_txt{ width:810px; height:52px; top:9px; left:34px; font-size:20px; position:absolute; z-index:20;}
+.line_top{ background-color:#dedede; width:958px; height:2px; position:absolute; top:65px; left:34px; z-index:20;}
+.popup_bg {background:url(../images/pop_bg.jpg); width:1024px; height:768px; left:0px; top:0px;}
+.popup_bg2 { background:url(../images/pop_bg2.png); width:1024px; height:768px; left:0px; top:0px;}
+.next_btn {background:url(../images/next_btn.png) no-repeat; width:32px; height:32px; left:960px; top:340px; position:absolute; z-index:5;}
+.next_btn2 {background:url(../images/next_btn2.png) no-repeat; width:32px; height:32px; left:960px; top:340px; position:absolute; z-index:5;}
+.pre_btn {background:url(../images/pre_btn.png) no-repeat; width:32px; height:32px; left:30px; top:340px; position:absolute; z-index:5;}
+.pre_btn2 {background:url(../images/pre_btn2.png) no-repeat; width:32px; height:32px; left:30px; top:340px; position:absolute; z-index:5;}
+.close {position: absolute;width: 33px;height: 33px;left: 959px;top: 15px;}
+
+.home_btn,.closde_btn,.altive_btn {width:50px; height:68px;  position:absolute; bottom:0px;}
+
+.home_btn {left:8px;}
+.closde_btn {left:70px;}
+.altive_btn {left:135px;}
+
+
+#loading
+{
+	width:1024px;
+	height:768px;
+	position:absolute;
+	left:0px;
+	top:0px;
+	z-index:9999;
+	background: url("../../../icons/loadingPage.png") no-repeat scroll left top;
+}
+#stage
+{
+	z-index: 2;
+}
+#container {
+	height: 768px;
+	width: 1024px;
+	position: relative;	
+	
+	overflow: hidden;
+} 
+#content
+{
+	 position: absolute;
+	 left:0px;
+	 top:0px;
+	 width: 1024px;
+	 height: 768px; 
+	 z-index: 2
+}
+
+/*--------------------------------------------End:Light Framework---------------------*/
+
+.bg{ 
+	width:1024px; height:768px; position:absolute; 
+  	z-index: 2;
+	background:url(../images/bg.jpg) no-repeat;
+
+}
+#animationBG
+{
+	position:absolute;
+	z-index:1;
+	width:1024px;
+	height:768px;
+	left:0px;
+	top:0px;
+}
+#animationBG div
+{
+	position:absolute;
+	width:1024px;
+	height:768px;
+	display:none;	
+}
+#animationBG div:nth-child(1),#animationBG.main div:nth-child(1),#animationBG.flow1 div:nth-child(1)
+{
+	  background-image:url(../images/mask/1.png);
+	  display:block;
+}
+#animationBG div:nth-child(2),#animationBG.main div:nth-child(2),#animationBG.flow1 div:nth-child(2)
+{
+	  background-image:url(../images/mask/2.png);
+	  
+}
+#animationBG div:nth-child(3),#animationBG.main div:nth-child(3),#animationBG.flow1 div:nth-child(3)
+{
+	  background-image:url(../images/mask/3.png);
+}
+#animationBG.flow2 div:nth-child(1)
+{
+	  background-image:url(../images/mask/Purple1.png);
+	  display:block;
+}
+#animationBG.flow2 div:nth-child(2)
+{
+	  background-image:url(../images/mask/Purple2.png);
+	  
+}
+#animationBG.flow2 div:nth-child(3)
+{
+	  background-image:url(../images/mask/Purple3.png);
+}
+#animationBG.flow3 div:nth-child(1)
+{
+	  background-image:url(../images/mask/Pink1.png);
+	  display:block;
+}
+#animationBG.flow3 div:nth-child(2)
+{
+	  background-image:url(../images/mask/Pink2.png);
+	  
+}
+#animationBG.flow3 div:nth-child(3)
+{
+	  background-image:url(../images/mask/Pink3.png);
+}
+#logo
+{
+	width:450px;
+	height: 70px;
+	background:#fff url("../images/logo.png") no-repeat scroll right bottom;
+	position: absolute;
+	left: 574px;
+	top: 683px;
+	z-index: 3;
+    display: none;
+}
+
+/*-------Begin:Ref--------------*/
+.ref_content
+{
+	float: left;
+	width: 342px;
+	height: 160px;
+	overflow: hidden;
+	color: white;
+	font-size: 13px;
+	margin-left: 10px;
+	margin-top:8px;
+
+}
+.ref_content p
+{
+	width: 330px;
+	margin-top:0px;
+}
+.ref_button
+{
+	width:20px;
+	height: 20px;
+	background: red;
+	position: absolute;
+	bottom:0px;
+	
+}
+.ref_prev
+{
+	left:40%;
+}
+.ref_next
+{
+	left:50%;
+}
+.ref_button_disable
+{
+	background: #c0c0c0;
+}
+/*-------End:Ref--------------*/
+sup {
+    font-size: 50%;
+    line-height: normal;
+}
+.menumask {height: 70px; width: 575px; position: absolute; bottom: 0;z-index: 2; background: #fff}
+
+.ref_content > div{
+	background:url(../images/rock.png) 0px 0px !important;
+	margin-left:20px;
+}
+.ref_content > div > div{
+	background:url(../images/roll.png) 0px 0px !important;	
+	border-radius:0px !important;
+	
+}
+.ref_content > div:nth-child(2) {
+background: url(../images/rock.png) 0px 0px !important;
+margin-left: 20px;
+}
+.flow3 #menutarget li {width: 143.5px!important}
+
+#btnClose {
+    background: url("../../../icons/close.png") no-repeat !important;
+    width: 30px !important;
+    height: 30px !important;
+    right: 4px !important;
+    top: 4px !important;
+    z-index: 1001 !important;
+    position: absolute !important;                    
+}
+#listPrez {
+    background: url("../../../icons/switch.png")  no-repeat !important;
+    width: 30px !important;
+    height: 30px !important;
+    left: 5px !important;
+    top: 5px !important;
+    z-index: 1002 !important;
+    position: absolute !important;   
+}
+#switchPrezPanel {
+    width: 200px !important; 
+    height:250px !important; 
+    background-color:white !important;  
+
+    z-index:120 !important; 
+    position: absolute !important; 
+    left: 20px !important; 
+    top: 20px !important;
+
+}

@@ -1,0 +1,308 @@
+
+
+<div class="popup16 popup_bg">
+
+	<div class="close"></div>
+    
+<!--pop16-->
+	<div class="screen_pu16">
+    
+    <div class="p16_pack"></div>
+    
+    <div class="p16_title_pop fru_b blue">
+    	<i18n id="p16_title_pop">可丽蓝早早孕测试笔</i18n>
+    </div>
+	
+    <div class="p16_img_pu16"></div>
+    
+    <span class="p16_text1 blue">
+    	<i18n id="p16_text1">最易使用<br>最大化设计<br>可靠测试</i18n>
+    </span>
+    
+    <span class="p16_text2 fru_l blue">
+    	<i18n id="p16_text2">将由过度取样导致的结果错误率降低70%<br />（过度取样是由于操作失误导致结果错读的<br/>最大诱因)<sup>**</sup></i18n>
+    </span>
+    
+    <div class="p16_video_bt">
+    	<span class="p16_vbt_t fru_b pink">
+        	<i18n id="p16_vbt_t">视频</i18n>
+        </span>
+    </div>
+
+	<div class="next_btn p16_next_btn"></div>
+    
+        <!--ref2-->
+   		<div class="ref ref23 page_1 flyer" rel=".popup16 #refCo23_orange"></div>
+		<div class="ref ref23 page_2 flyer" rel=".popup16 #refCo23_orange"></div>
+        <div class="refCo23_orange refCo23 flyer" id="refCo23_orange">
+            <div class="ref_content flyer">
+                    <p><i18n id="ref_content">
+                    在美国的一项研究中，149名女性使用了领导品牌的测试笔，超过80%的女性发现可丽蓝加是最容易使用的。
+和我们标准可视测试笔相比较，基于2010年和2012年电话求助率
+
+					</i18n></p>			
+    
+            </div>
+            <div class="close_ref flyer"></div>
+        </div>
+    	<!--End ref2--> 
+        
+    </div>	
+<!--pop16-->
+	
+<!--pop17-->
+	<div class="screen_pu17">
+        <div class="p17_title_pop fru_b blue">
+            <i18n id="p17_title_pop">可丽蓝早早孕测试笔</i18n>
+        </div>
+        
+        <!-- Video  -->
+            <div id="p17_video" src="presentation/assets/Clearblue_010/video/video64"></div>
+        <!-- End Video  -->
+        
+        <div class="p17_close"></div>
+    </div>
+<!--pop17-->
+
+<!--pop18-->
+	<div class="screen_pu18">
+    	
+    <div class="p18_title_pop fru_b blue">
+    	<i18n id="p18_title_pop">可丽蓝早早孕测试笔</i18n>
+    </div>
+         
+		<div class="p18_mask"></div>
+        <div class="text_more blue"><i18n id="text_more">将由过度取样导致的结果错误率降低70%</i18n><sup>*</sup></div>
+        <div class="p18_cir1">
+        	<div class="p18_pro_sm1"></div>
+            <span class="p18_cir1_te blue">
+            	<i18n id="p18_cir1_te">笔尖成功取样自动变色，让取样更简单
+大幅减少因错误取样带来的结果误读</i18n>
+            </span>
+            <div class="content_line">
+                 <div id="layerBall" class="ball">
+                 </div>  
+                 <div class="line2"></div>  
+            </div> <!--end #content_line-->
+        </div>
+        <div class="p18_cir2">
+        	<div class="p18_pro_sm2"></div>
+            <span class="p18_cir2_te blue">
+            	<i18n id="p18_cir2_te">特有+号显示设计，让普通消费也能轻松地正确读取结果</i18n>
+            </span>
+            <div class="content_line">
+                 <div id="layerBall" class="ball">
+                 </div>  
+                 <div class="line1"></div>  
+            </div> <!--end #content_line-->
+        </div>
+        <div class="p18_cir3">
+        	<div class="p18_pro_sm3"></div>
+            <span class="p18_cir3_te blue">
+            	<i18n id="p18_cir3_te">取样更轻松</i18n>
+            </span>
+            <div class="content_line">
+                 <div id="layerBall" class="ball">
+                 </div>  
+                 <div class="line"></div>  
+            </div> <!--end #content_line-->
+        </div>
+        
+    <div class="p18_pro"></div>
+    
+    
+	<div class="pre_btn p18_pre_btn"></div>
+    <div class="p18_close"></div>
+    
+    <!--ref2-->
+   		
+		<div class="ref ref24 flyer" rel=".popup16 #refCo24_orange"></div>
+        <div class="refCo24_orange refCo24 flyer" id="refCo24_orange">
+            <div class="ref_content flyer">
+                    <p><i18n id="ref_content">
+                    *Vs. our standard visual test. Based on calls to helpline throughout 2010 and 2012
+
+					</i18n></p>			
+    
+            </div>
+            <div class="close_ref flyer"></div>
+        </div>
+    	<!--End ref2--> 
+    
+    </div>
+<!--pop18-->
+    
+</div>
+
+<script language="javascript">	
+
+		if(isAnimation)
+		{
+				$('.popup16').on('click', '.p16_video_bt', function(e, el) {
+				$(".popup16 .screen_pu16").fadeOut();
+				$(".popup16 .screen_pu17").fadeIn();
+				
+				var video = $('#p17_video').drcom_video({
+					autoplay:true
+				}).controller();
+				
+					
+				$('.popup16').on('click', '.p17_close', function(e, el) {
+					$(".popup16 .screen_pu16").fadeIn();
+					$(".popup16 .screen_pu17").fadeOut();
+					
+					$(".drcom_video").each(function(){
+						$(this).controller().destroy();
+						$(this).empty();
+					});
+				});
+				
+			});
+			
+			$('.popup16').on('click', '.p16_next_btn', function(e, el) {
+				$(".popup16 .screen_pu16").fadeOut();
+				$(".popup16 .screen_pu18").fadeIn(100,function(){
+					/*animation pu18	*/
+			$('.p18_pro, .p18_cir1 .content_line').fadeIn(100);
+				$('.p18_cir1').delay(500).fadeIn(300);
+				$('.p18_pro_sm1').delay(500).fadeIn(100).animate({opacity: 1, transform: 'scale(0.94)'}, 1000);	
+		
+				var clicked=false;
+					setTimeout(function () {
+						if(clicked==true)
+							return;
+						$('.p18_cir2 .content_line').show();
+						$('.p18_cir2').delay(500).fadeIn(300);
+						$('.p18_pro_sm2').delay(500).fadeIn(100).animate({opacity: 1, transform: 'scale(0.94)'}, 1000);
+					}, 500);
+					
+					setTimeout(function () {
+						if(clicked==true)
+							return;
+						$('.p18_cir3 .content_line').show();
+						$('.p18_cir3').delay(500).fadeIn(300);
+						$('.p18_pro_sm3').delay(500).fadeIn(100).animate({opacity: 1, transform: 'scale(0.94)'}, 1000);
+					}, 1000);
+			
+			$('.p18_pro_sm1').bind("tapone",function(){
+				$('.p18_pro_sm1').hide();
+				$('.p18_cir1_te').fadeIn();
+			});
+			$('.p18_cir1_te').bind("tapone",function(){
+				$('.p18_cir1_te').hide();
+				$('.p18_pro_sm1').fadeIn();
+			});	
+			
+			$('.p18_pro_sm2').bind("tapone",function(){
+				$('.p18_pro_sm2').hide();
+				$('.p18_cir2_te').fadeIn();
+			});
+			$('.p18_cir2_te').bind("tapone",function(){
+				$('.p18_cir2_te').hide();
+				$('.p18_pro_sm2').fadeIn();
+			});	
+			
+			$('.p18_pro_sm3').bind("tapone",function(){
+				$('.p18_pro_sm3').hide();
+				$('.p18_cir3_te').fadeIn();
+			});
+			$('.p18_cir3_te').bind("tapone",function(){
+				$('.p18_cir3_te').hide();
+				$('.p18_pro_sm3').fadeIn();
+			});
+		/*animation pu18	*/	
+				});
+			});
+			
+			$('.popup16').on('click', '.p18_pre_btn', function(e, el) {
+				$(".popup16 .screen_pu18").hide();
+				$('.p18_cir1_te').hide();
+				$('.p18_cir2_te').hide();
+				$('.p18_cir3_te').hide();
+				$('.p18_pro_sm1').show();
+				$('.p18_pro_sm2').show();
+				$('.p18_pro_sm3').show();
+				$(".popup16 .screen_pu16").show();
+			});	
+
+		}
+	else
+		{
+				$('.popup16').on('click', '.p16_video_bt', function(e, el) {
+				$(".popup16 .screen_pu16").hide();
+				$(".popup16 .screen_pu17").show();
+				
+				var video = $('#p17_video').drcom_video({
+					autoplay:true
+				}).controller();
+				
+					
+				$('.popup16').on('click', '.p17_close', function(e, el) {
+					$(".popup16 .screen_pu16").show();
+					$(".popup16 .screen_pu17").hide();
+					
+					$(".drcom_video").each(function(){
+						$(this).controller().destroy();
+						$(this).empty();
+					});
+				});
+				
+			});
+			
+			
+			$('.popup16').on('click', '.p16_next_btn', function(e, el) {
+				
+				$(".popup16 .screen_pu16").hide();
+				$(".popup16 .screen_pu18").show();
+				
+				$(".popup16 .p18_mask").show();
+				
+				$('.p18_pro,.p18_cir1').show();
+				$('.p18_pro_sm1').css({opacity: 1, transform: 'scale(0.94)'});	
+				$(".p18_cir2").show();
+				$('.p18_pro_sm2').css({opacity: 1, transform: 'scale(0.94)'});	
+				$(".p18_cir3").show();
+				$('.p18_pro_sm3').css({opacity: 1, transform: 'scale(0.94)'});	
+				
+				$('.p18_pro_sm1').bind("tapone",function(){
+					$('.p18_pro_sm1').hide();
+					$('.p18_cir1_te').show();
+				});
+				$('.p18_cir1_te').bind("tapone",function(){
+					$('.p18_cir1_te').hide();
+					$('.p18_pro_sm1').show();
+				});	
+				
+				$('.p18_pro_sm2').bind("tapone",function(){
+					$('.p18_pro_sm2').hide();
+					$('.p18_cir2_te').show();
+				});
+				$('.p18_cir2_te').bind("tapone",function(){
+					$('.p18_cir2_te').hide();
+					$('.p18_pro_sm2').show();
+				});	
+				
+				$('.p18_pro_sm3').bind("tapone",function(){
+					$('.p18_pro_sm3').hide();
+					$('.p18_cir3_te').show();
+				});
+				$('.p18_cir3_te').bind("tapone",function(){
+					$('.p18_cir3_te').hide();
+					$('.p18_pro_sm3').show();
+				});
+			});
+			
+			$('.popup16').on('click', '.p18_pre_btn', function(e, el) {
+				$(".popup16 .screen_pu18").hide();
+				$('.p18_cir1_te').hide();
+				$('.p18_cir2_te').hide();
+				$('.p18_cir3_te').hide();
+				$('.p18_pro_sm1').show();
+				$('.p18_pro_sm2').show();
+				$('.p18_pro_sm3').show();
+				$(".popup16 .screen_pu16").show();
+			});				
+		}
+	
+	
+</script>

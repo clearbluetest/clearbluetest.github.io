@@ -1,0 +1,24 @@
+
+.Clearblue_020a .woman{ background: url(../images/woman.png); width:394px; height:536px; top:126px; left:311px; position:absolute;}
+.Clearblue_020a .two_woman{ background:url(../images/two_woman.png) no-repeat; width:1024px; height:510px; top:47px; left:0px; position:absolute;}
+.Clearblue_020a  .box{ background:url(../images/box.png) no-repeat; width:951px; height:215px; top:450px; left:31px; position:absolute;}
+.Clearblue_020a .txt_left{ font-size:24px; text-align:center; top:25px; left:109px; position:absolute;}
+.Clearblue_020a .txt1_left{ font-size:16px; text-align:center; top:118px; left:56px; position:absolute;}
+.Clearblue_020a .txt_right1,.Clearblue_020a .txt_right2{ font-size:60px; position:absolute;} 
+.Clearblue_020a .txt_right1{ top:30px; left:730px;}
+.Clearblue_020a .txt_right2{top:30px; left:840px;}
+.Clearblue_020a .txt_right_btom{ font-size:16px; text-align:center; top:100px; left:700px; position:absolute;}
+.Clearblue_020a .txt_right3{ font-size:26px; text-align:left; top:36px; left:775px; position:absolute;}
+.Clearblue_020a .growPercent {top: 50px;left: 109px;font-size: 52px;z-index: 2; position:absolute;}
+
+/*ref*/
+.Clearblue_020a .flyer {position:absolute;}
+.Clearblue_020a .ref {width:50px;height:50px;}
+.Clearblue_020a .close_ref {width:32px; height:32px; background:url(../../../global/images/close_btn.png) no-repeat; bottom:0px  !important; right:0px !important; z-index: 10;}
+.Clearblue_020a .ref34{left: 884px;top: 585px;  z-index:2; }
+
+
+.Clearblue_020a .refCo34 {width:385px; height:177px; background:url(../../../global/images/ref.jpg) no-repeat; bottom:85px; right:0px; z-index: 10; display:none;}
+/*ref*/
+
+

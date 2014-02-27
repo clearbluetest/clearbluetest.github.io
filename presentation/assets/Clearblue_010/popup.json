@@ -1,0 +1,12 @@
+[
+  {
+     "id" : "popup12" 
+     "openCmd" : "$(".popup12").controller().show()" 
+     "closeCmd" : "$(".popup12").controller().hide()" 
+  },
+  {
+     "id" : "popup16" 
+     "openCmd" : "$(".popup16").controller().show()" 
+     "closeCmd" : "$(".popup16").controller().hide()" 
+  }
+]

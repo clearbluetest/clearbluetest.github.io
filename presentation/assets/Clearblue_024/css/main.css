@@ -1,0 +1,34 @@
+
+.Clearblue_024 .img{ background:url(../images/box.png) no-repeat; width:335px; height:528px; top:120px; left:605px; position:absolute; display:none;}
+.Clearblue_024 .title{ font-size:32px; top:140px; left:50px; text-align:left; position:absolute; color:#92278f;}
+.Clearblue_024 .txt_1{ font-size:24px; text-align:left; top:220px; left:50px; position:absolute;}
+.Clearblue_024 .txt_2,.Clearblue_024 .txt_3,.Clearblue_024 .txt_4{ font-size:24px; text-align:left; position:absolute; left:83px; display:none;}
+.Clearblue_024 .txt_2{top:330px;}
+.Clearblue_024 .txt_3{top:420px;}
+.Clearblue_024 .txt_4{top:509px;}
+.Clearblue_024 .tick_1,.Clearblue_024 .tick_2,.Clearblue_024 .tick_3{ background:url(../images/tick.png) no-repeat; width:22px; height:22px; position:absolute; left:50px; display:none;}
+.Clearblue_024 .tick_1{top:330px; }
+.Clearblue_024 .tick_2{top:420px; }
+.Clearblue_024 .tick_3{top:510px; }
+
+/*ref*/
+.Clearblue_024 .flyer {position:absolute;}
+.Clearblue_024 .ref {width:50px;height:50px;}
+.Clearblue_024 .close_ref {width:32px; height:32px; background:url(../../../global/images/close_btn.png) no-repeat; bottom:0px  !important; right:0px !important; z-index: 10;}
+.Clearblue_024 .ref38{left:281px; top:217px;  z-index:2; }
+.Clearblue_024 .page_26{left:252px;top:405px;  z-index:2;}
+
+.Clearblue_024 .refCo38 {width:385px; height:177px; background:url(../../../global/images/ref.jpg) no-repeat; bottom:85px; right:0px; z-index: 10; display:none;}
+/*ref*/
+
+
+
+
+
+
+
+
+
+
+
+

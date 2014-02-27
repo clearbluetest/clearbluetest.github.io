@@ -1,0 +1,23 @@
+
+.Clearblue_020 .box_1{ background:url(../images/box_1.png) no-repeat; width:839px; height:111px; top:179px; left:70px; position:absolute;}
+.Clearblue_020 .box_2{ background:url(../images/box_2.png) no-repeat; width:849px; height:110px; top:302px; left:70px; position:absolute;}
+.Clearblue_020 .box_3{ background:url(../images/box_3.png) no-repeat; width:654px; height:197px; top:422px; left:70px; position:absolute;}
+.Clearblue_020 .man{ background:url(../images/men.png) no-repeat; width:405px; height:648px; top: 91px; left:596px; position:absolute;display:none;}
+.Clearblue_020 .txt_1{ font-size:31px; text-align:left; top:93px; left:75px; position:absolute; display:none;}
+.Clearblue_020 .number_1,.Clearblue_020 .number_2,.Clearblue_020 .number_3{ font-size:75px; text-align: center; top:11px; left:24px; position:absolute; display:none;}
+.Clearblue_020 .number_2{ top:11px; left:24px;}
+.Clearblue_020 .number_3{ top:52px; left:24px;}
+.Clearblue_020 .txt_box1,.Clearblue_020 .txt_box2{ font-size:24px; text-align:left; position:absolute;}
+.Clearblue_020 .txt_box1{ top:28px; left:108px;}
+.Clearblue_020 .txt_box2{ top:27px; left:108px;}
+.Clearblue_020 .txt_box3{ top:19px; left:108px; font-size:23px; position:absolute;}
+.Clearblue_020 .box_1,.Clearblue_020 .box_2,.Clearblue_020 .box_3,.Clearblue_020 .txt_box1,.Clearblue_020 .txt_box2,.Clearblue_020 .txt_box3{ display:none;}
+/*ref*/
+.Clearblue_020 .flyer {position:absolute;}
+.Clearblue_020 .ref {width:50px;height:50px;}
+.Clearblue_020 .close_ref {width:32px; height:32px; background:url(../../../global/images/close_btn.png) no-repeat; bottom:0px  !important; right:0px !important; z-index: 10;}
+.Clearblue_020 .ref33{left:281px; top:217px;  z-index:2; }
+.Clearblue_020 .page_20{left: 240px;top: 215px;  z-index:2;}
+.Clearblue_020 .page_21{left: 512px;top: 340px;  z-index:2;}
+.Clearblue_020 .refCo33 {width:385px; height:177px; background:url(../../../global/images/ref.jpg) no-repeat; bottom:85px; right:0px; z-index: 10; display:none;}
+/*ref*/
